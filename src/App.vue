@@ -1,20 +1,20 @@
 <template>
   <div id="app">
-    <Navbar :items="dataJson.link_bar" />
+    <LinkBar :items="Json.link_bar" :logo="Json.img_project" />
   </div>
 </template>
 
 <script>
 import json from "./data/data-project.json";
-import Navbar from "./components/Navbar.vue";
+import LinkBar from "./components/LinkBar.vue";
 export default {
   name: "App",
   components: {
-    Navbar,
+    LinkBar,
   },
   data() {
     return {
-      dataJson: json,
+      Json: json,
     };
   },
 };

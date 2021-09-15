@@ -2,39 +2,39 @@
     "link_bar": [
         {
             "name": "home",
-            "link": "#"
+            "src": "#"
         },
         {
             "name": "schop",
-            "link": "#"
+            "src": "#"
         },
         {
             "name": "about",
-            "link": "#"
+            "src": "#"
         },
         {
             "name": "gallery",
-            "link": "#"
+            "src": "#"
         },
         {
             "name": "location",
-            "link": "#"
+            "src": "#"
         },
         {
             "name": "journal",
-            "link": "#"
+            "src": "#"
         },
         {
             "name": "contact",
-            "link": "#"
+            "src": "#"
         },
         {
             "name": "my account",
-            "link": "#"
+            "src": "#"
         },
         {
             "name": "buy",
-            "link": "#"
+            "src": "#"
         }
     ],
     "data_component": [
@@ -83,5 +83,8 @@
             "text_button": "",
             "backgroud-image": ""
         }
-    ]
+    ],
+    "img_project": {
+        "img_link_bar": "avada-bakery-logo.png"
+    }
 }
