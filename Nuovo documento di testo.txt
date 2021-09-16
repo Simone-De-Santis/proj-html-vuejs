@@ -1,0 +1,3 @@
+modifica
+Luigi Micco:boolean:  17:00
+ATTENZIONE ! E' richiesta una modifica alla consegna che stai completando. Occorre modificare il colore #6a5243 in #3698db . Il committente ha cambiato idea. Grazie

@@ -1,0 +1,64 @@
+@mixin center($type: "both") {
+    display: flex;
+    @if $type == "vertical" {
+        align-items: center;
+    } @else if $type== "horizontal" {
+        justify-content: center;
+    } @else if $type== "space" {
+        justify-content: space-between;
+        align-items: center;
+    } @else if $type== "start-n-center" {
+        align-items: flex-start;
+    } @else {
+        align-items: center;
+        justify-content: center;
+    }
+}
+@mixin flex($type) {
+    display: flex;
+    @if $type== "wrap" {
+        flex-wrap: wrap;
+    }
+}
+@mixin fixed-top($type) {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    background-color: white;
+}
+@mixin modlist($type: "selected") {
+    li {
+        list-style-type: none;
+        a {
+            padding: 10px;
+            color: red;
+            text-decoration: none;
+            text-transform: uppercase;
+            &:hover,
+            &.active {
+                @if $type== "selected" {
+                    border-bottom: 1.5px solid red;
+                } @else if $type== "none" {
+                    border-bottom: none;
+                }
+            }
+        }
+    }
+}
+
+// .my-up-image:hover {
+//   box-shadow: 0px 45px 20px -30px rgba(0, 0, 0, 0.2);
+//   animation: up 1.5s infinite 0.4s;
+//   border-bottom: none;
+// }
+// @keyframes up {
+//   0%,
+//   100% {
+//     transform: translatey(0px);
+//   }
+//   50% {
+//     transform: translatey(-10px);
+//   }
+// }

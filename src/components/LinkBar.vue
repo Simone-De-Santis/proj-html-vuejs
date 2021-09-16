@@ -1,13 +1,11 @@
 <template>
-  <div>
-    <hr />
-    <img :src="printUrlImg(logo.img_link_bar)" alt="" />
+  <div class="linkBar">
+    <img :src="printUrlImg(logo)" alt="" />
     <ul>
       <li v-for="(item, index) in items" :key="index">
         <a :href="item.src">{{ item.name }}</a>
       </li>
     </ul>
-    <hr />
   </div>
 </template>
 
@@ -23,11 +21,19 @@ export default {
   computed: {},
   methods: {
     printUrlImg(nameImage) {
-      return require(`@/assets/img/${nameImage}`);
+      return require(`../assets/img/${nameImage}`);
     },
   },
 };
 </script>
 
-<style>
+<style lang="scss" scoped>
+.linkBar {
+  padding: 10px;
+  @include center(space);
+  ul {
+    @include center(space);
+    @include modlist();
+  }
+}
 </style>

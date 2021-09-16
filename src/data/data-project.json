@@ -58,7 +58,7 @@
         },
         {
             "type": "section 2 ",
-            "up-title": "corporate &  weddings",
+            "up-title": "corporate & weddings",
             "title": "bakings special moments",
             "sub-title": "",
             "paragrafo": "",
@@ -84,7 +84,51 @@
             "backgroud-image": ""
         }
     ],
+    "dataa_component": {
+        "jumbo": {
+            "type": "jumbo 1 ",
+            "up_title": "fresh & tasty bakery every day",
+            "title": "The perfect fresh bread",
+            "sub-title": "",
+            "paragraph": "cras consequat lectus vestibulum tortor pulvinar, quis euismod nesl varius. Aliqam erat volutpat. Nullam quis sagittis nibh nulla id orci tempor.",
+            "text_button": "explore our products",
+            "backgroud_image": "hero-header-bakery.jpg"
+        },
+        "our_product": {
+            "type": "section 1 ",
+            "up_title": "our product",
+            "title": "All our delectable pastries are backend fresh in our kitchen very morning, and are made with all-natural, all organic ingredients",
+            "sub-title": "",
+            "paragrafo": "",
+            "text_button": "start shopping",
+            "backgroud-image": ""
+        },
+        "corporate_wedding": {
+            "type": "section 2 ",
+            "up_title": "corporate & weddings",
+            "title": "bakings special moments",
+            "hover_corporate": {
+                "up-title": "international bakery",
+                "title": "corporate events",
+                "text_button": "explore more",
+                "backgroud-image": ""
+            },
+            "hover_wedding": {
+                "up-title": "private dining hall",
+                "title": "weddings & parties",
+                "text_button": "explore more",
+                "backgroud-image": ""
+            }
+        }
+    },
     "img_project": {
-        "img_link_bar": "avada-bakery-logo.png"
+        "img_link_bar": "avada-bakery-logo.png",
+        "slider_mini": {
+            "img_1": "pollo.png"
+        },
+        "corporatewedding_img": {
+            "corporate": "corporate-bg.jpg",
+            "wedding": "wedding-bg.jpg"
+        }
     }
 }
