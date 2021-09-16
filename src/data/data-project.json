@@ -37,59 +37,13 @@
             "src": "#"
         }
     ],
-    "data_component": [
-        {
-            "type": "jumbo 1 ",
-            "up-title": "fresh & tasty bakery every day",
-            "title": "The perfet fresh bread",
-            "sub-title": "",
-            "paragrafo": "cras consequat lectus vestibulum tortor pulvinar, quis euismod nesl varius. Aliqam erat volutpat. Nullam quis sagittis nibh nulla id orci tempor.",
-            "text_button": "explore our products",
-            "backgroud-image": "inserire il link dell'imagine"
-        },
-        {
-            "type": "section 1 ",
-            "up-title": "our product",
-            "title": "All our delectable pastries are backend fresh in our kitchen very morning, and are made with all-natural, all organic ingredients",
-            "sub-title": "",
-            "paragrafo": "",
-            "text_button": "start shopping",
-            "backgroud-image": ""
-        },
-        {
-            "type": "section 2 ",
-            "up-title": "corporate & weddings",
-            "title": "bakings special moments",
-            "sub-title": "",
-            "paragrafo": "",
-            "text_button": "",
-            "backgroud-image": ""
-        },
-        {
-            "type": "section 3 ",
-            "up-title": "",
-            "title": "find a freshly baked product perfect for you ",
-            "sub-title": "integer a nibh vitae ex portitor rutrum et ut velit. Etiam ac felis at leo feugiat placerat. sed ac nulla id orci tempor convalis sed.",
-            "paragrafo": "",
-            "text_button": "shop all products",
-            "backgroud-image": "      inserire sotto sezione per le imagini dei prodotti "
-        },
-        {
-            "type": "section 4",
-            "up-title": "",
-            "title": "tell us what you have in mind",
-            "sub-title": "manual ingedients selection",
-            "paragrafo": "cras consequat lectus vestibulum tortor pulvinar, quis euismod nisl varius. ut eu laoreet ex. aliquam erat volutpat. Nullam quis sagittis nibh. morbi consectetur ultricies ante ac congue. donec lorem erat, finibus in velit placerat, rutrum angue.    ",
-            "text_button": "",
-            "backgroud-image": ""
-        }
-    ],
+    "data_component": [],
     "dataa_component": {
         "jumbo": {
             "type": "jumbo 1 ",
             "up_title": "fresh & tasty bakery every day",
             "title": "The perfect fresh bread",
-            "sub-title": "",
+            "sub_title": "",
             "paragraph": "cras consequat lectus vestibulum tortor pulvinar, quis euismod nesl varius. Aliqam erat volutpat. Nullam quis sagittis nibh nulla id orci tempor.",
             "text_button": "explore our products",
             "backgroud_image": "hero-header-bakery.jpg"
@@ -98,26 +52,63 @@
             "type": "section 1 ",
             "up_title": "our product",
             "title": "All our delectable pastries are backend fresh in our kitchen very morning, and are made with all-natural, all organic ingredients",
-            "sub-title": "",
+            "sub_title": "",
             "paragrafo": "",
             "text_button": "start shopping",
-            "backgroud-image": ""
+            "backgroud_image": ""
+        },
+        "freshly_baked": {
+            "type": "section 3 ",
+            "up_title": "",
+            "title": "find a freshly baked product perfect for you ",
+            "sub_title": "integer a nibh vitae ex portitor rutrum et ut velit. Etiam ac felis at leo feugiat placerat. sed ac nulla id orci tempor convalis sed.",
+            "paragrafo": "",
+            "text_button": "shop all products",
+            "backgroud_image": ""
         },
         "corporate_wedding": {
             "type": "section 2 ",
             "up_title": "corporate & weddings",
             "title": "bakings special moments",
             "hover_corporate": {
-                "up-title": "international bakery",
+                "up_title": "international bakery",
                 "title": "corporate events",
                 "text_button": "explore more",
-                "backgroud-image": ""
+                "backgroud_image": ""
             },
             "hover_wedding": {
-                "up-title": "private dining hall",
+                "up_title": "private dining hall",
                 "title": "weddings & parties",
                 "text_button": "explore more",
-                "backgroud-image": ""
+                "backgroud_image": ""
+            }
+        },
+        "data_multi_section": {
+            "section_one": {
+                "number": "01",
+                "up_title": "manual ingredients selection",
+                "title": "tell us what you have in mind",
+                "paragraph": "cras consequat lectus vestibulum tortor pulvinar, quis euismod nisl varius. ut eu laoreet ex. aliquam erat volutpat. Nullam quis sagittis nibh. morbi consectetur ultricies ante ac congue. donec lorem erat, finibus in velit placerat, rutrum angue.",
+                "img_background": "bakery-process-1.jpg"
+            },
+            "section_two": {
+                "number": "02",
+                "up_title": "sweet & delicious",
+                "title": "we start baking",
+                "paragraph": "cras consequat lectus vestibulum tortor pilviar,quis euismod nisl varius. ut eu laoreet ex. aliquam erat volutpat. Nullam quis sagittis nibh. morbi consectetur ultricies ante ac congue. donec lorem erat, finibus in velit placerat",
+                "img_background": "bakery-process-2.jpg",
+                "next_to": {
+                    "up_title": "dont just take our word for it",
+                    "title": "“finally found an alternative to the mass produced products. Something that incorporates real organic ingredients,nutrient tense wellnsess while promoting sustainability and activity.”",
+                    "sub_title": "Rachel Cooper, Founder"
+                }
+            },
+            "section_three": {
+                "number": "03",
+                "title": "delivered to your home",
+                "sub_title": "baked to order & gift wrapped",
+                "paragraph": "cras consequat lectus vestibulum tortor pulvinar, quis euismod nisl varius. ut eu laoreet ex. aliquam erat volutpat. Nullam quis sagittis nibh. morbi consectetur ultricies ante ac congue. donec lorem erat, finibus in velit placerat, rutrum angue.",
+                "img_background": "bakery-process-3.jpg"
             }
         }
     },

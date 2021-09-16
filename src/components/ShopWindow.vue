@@ -4,6 +4,7 @@
       <div class="col-1-3">
         <p>{{ description.up_title }}</p>
         <h2>{{ description.title }}</h2>
+        <p>{{ description.sub_title }}</p>
         <button type="submit">{{ description.text_button }}</button>
       </div>
 

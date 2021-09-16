@@ -13,6 +13,13 @@
       :description="Json.dataa_component.corporate_wedding"
       :dataimg="Json.img_project.corporatewedding_img"
     />
+    <ShopWindow
+      :description="Json.dataa_component.freshly_baked"
+      :slider_image="Json.img_project.slider_mini"
+    />
+    <MultiSection
+      :data_multi_section="Json.dataa_component.data_multi_section"
+    />
   </div>
 </template>
 
@@ -21,6 +28,7 @@ import json from "./data/data-project.json";
 import Jumbotron from "./components/Jumbotron.vue";
 import ShopWindow from "./components/ShopWindow.vue";
 import Special from "./components/Special.vue";
+import MultiSection from "./components/MultiSection.vue";
 
 export default {
   name: "App",
@@ -28,6 +36,7 @@ export default {
     Jumbotron,
     ShopWindow,
     Special,
+    MultiSection,
   },
   data() {
     return {
