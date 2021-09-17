@@ -18,6 +18,9 @@
     width: 100%;
 }
 /*MARGIN*/
+.t-center {
+    text-align: center;
+}
 .margin-t-b-1 {
     margin: 1rem 0;
 }
@@ -83,6 +86,10 @@
 }
 .between {
     justify-content: space-between;
+}
+/* align-items*/
+.align-center {
+    align-items: center;
 }
 
 /* 12 column system */

@@ -1,13 +1,17 @@
 <template>
   <div class="container section">
-    <div class="row">
+    <div class="row align-center">
       <div class="col-3">
         <img :src="printUrlImg(data.img_one)" alt="" />
       </div>
-      <div class="col">
-        <p>{{ data.up_title }}</p>
-        <h2>{{ data.title }}</h2>
-        <button type="submit">{{ data.text_button }}</button>
+      <div class="col-6 bg-color">
+        <div class="content">
+          <p class="up-title">{{ data.up_title }}</p>
+          <h2 class="title">{{ data.title }}</h2>
+          <button type="submit" class="btn btn-alternative">
+            {{ data.text_button }}
+          </button>
+        </div>
       </div>
       <div class="col-3">
         <img :src="printUrlImg(data.img_two)" alt="" />
@@ -36,25 +40,22 @@ export default {
   },
 };
 </script>
-
 <style lang="scss" scoped>
-.col-4 {
-  flex-basis: calc(100% / 12 * 4);
-  max-width: calc(100% / 12 * 4);
-}
-.col-3 {
-  flex-basis: calc(100% / 12 * 3);
-  max-width: calc(100% / 12 * 3);
-}
 img {
   max-width: 100%;
-}
-.col {
-  flex-grow: 1;
+  padding: 20px;
 }
 .row {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+.bg-color {
+  background-color: $pearl-bush;
+}
+.content {
+  height: 350px;
+  @include center("");
+  flex-direction: column;
 }
 </style>
