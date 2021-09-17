@@ -97,7 +97,7 @@
                 "title": "we start baking",
                 "paragraph": "cras consequat lectus vestibulum tortor pilviar,quis euismod nisl varius. ut eu laoreet ex. aliquam erat volutpat. Nullam quis sagittis nibh. morbi consectetur ultricies ante ac congue. donec lorem erat, finibus in velit placerat",
                 "img_background": "bakery-process-2.jpg",
-                "next_to": {
+                "next_two": {
                     "up_title": "dont just take our word for it",
                     "title": "“finally found an alternative to the mass produced products. Something that incorporates real organic ingredients,nutrient tense wellnsess while promoting sustainability and activity.”",
                     "sub_title": "Rachel Cooper, Founder"
@@ -110,6 +110,57 @@
                 "paragraph": "cras consequat lectus vestibulum tortor pulvinar, quis euismod nisl varius. ut eu laoreet ex. aliquam erat volutpat. Nullam quis sagittis nibh. morbi consectetur ultricies ante ac congue. donec lorem erat, finibus in velit placerat, rutrum angue.",
                 "img_background": "bakery-process-3.jpg"
             }
+        },
+        "stores": {
+            "up_title": "location",
+            "title": "visit our bakeries",
+            "store_new_york": {
+                "name": "New York",
+                "phone": "1.800.458.556",
+                "opening_time": "9:00 AM - 6:00 PM",
+                "text_button": "View Map",
+                "image": "new-york-bk.jpg"
+            },
+            "store_london": {
+                "name": "London",
+                "phone": "1.800.458.556",
+                "opening_time": "9:00 AM - 6:00 PM",
+                "text_button": "View Map",
+                "image": "london-bk.jpg"
+            }
+        },
+        "social": {
+            "up_title": "MADE FOR SHARING",
+            "title": "Let's stay in touch",
+            "text_button": "View Map",
+            "img_one": "social-1.jpg",
+            "img_two": "social-2.jpg",
+            "img_second_row": [
+                "social-3.jpg",
+                "social-4.jpg",
+                "social-5.jpg",
+                "social-6.jpg"
+            ]
+        },
+        "jumbo_footer": {
+            "up_title": "TRY OUR SEASONAL PRODUCTS",
+            "title": "Order for Pick-up or delivery to your home",
+            "text_button": "Shop Now",
+            "backgroud_image": "call-to-action-bg.jpg"
+        },
+        "newsletter": {
+            "title": "Subscribe to our Newsletter",
+            "placeholder": "enter email address*",
+            "text_button": "Subscribe"
+        },
+        "icon_social": {
+            "insta": "#",
+            "twitter": "#",
+            "facebook": "#",
+            "printer": "#"
+        },
+        "copyright": {
+            "info": "© Copyright 2021 - 2020 | Avada Theme by ThemeFusion | All Rights Reserved | Powered By BOOLEAN"
         }
     },
     "img_project": {

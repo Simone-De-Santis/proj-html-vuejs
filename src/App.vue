@@ -20,6 +20,16 @@
     <MultiSection
       :data_multi_section="Json.dataa_component.data_multi_section"
     />
+    <Location :data="Json.dataa_component.stores" />
+    <Social :data="Json.dataa_component.social" />
+    <JumboFooter :data="Json.dataa_component.jumbo_footer" />
+    <Footer
+      :link_bar="Json.link_bar"
+      :logo="Json.img_project.img_link_bar"
+      :newsletter="Json.dataa_component.newsletter"
+      :copyright="Json.dataa_component.copyright"
+      :iconsocials="Json.dataa_component.icon_social"
+    />
   </div>
 </template>
 
@@ -29,6 +39,10 @@ import Jumbotron from "./components/Jumbotron.vue";
 import ShopWindow from "./components/ShopWindow.vue";
 import Special from "./components/Special.vue";
 import MultiSection from "./components/MultiSection.vue";
+import Location from "./components/Location.vue";
+import Social from "./components/Social.vue";
+import Footer from "./components/Footer.vue";
+import JumboFooter from "./components/JumboFooter.vue";
 
 export default {
   name: "App",
@@ -37,6 +51,10 @@ export default {
     ShopWindow,
     Special,
     MultiSection,
+    Location,
+    Social,
+    Footer,
+    JumboFooter,
   },
   data() {
     return {
@@ -47,16 +65,7 @@ export default {
 </script>
 
 <style lang="scss">
-body {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
 #app {
-  .container {
-    max-width: 1450px;
-    margin: 0 auto;
-  }
   .section {
     margin-top: 50px;
   }

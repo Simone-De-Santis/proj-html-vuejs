@@ -1,11 +1,15 @@
 <template>
   <div class="container">
-    <h1>componente per multisezione</h1>
-    <hr />
     <MiniJumbo :data="data_multi_section.section_one" />
-    <DoubleSlide :data="data_multi_section.section_two" />
+    <div class="row">
+      <div class="col">
+        <MiniJumbo :data="data_multi_section.section_two" />
+      </div>
+      <div class="col">
+        <DoubleSlide :data="data_multi_section.section_two.next_two" />
+      </div>
+    </div>
     <MiniJumbo :data="data_multi_section.section_three" />
-    <hr />
   </div>
 </template>
 
@@ -22,5 +26,11 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss" scoped>
+.row {
+  display: flex;
+  .col {
+    max-width: 50%;
+  }
+}
 </style>

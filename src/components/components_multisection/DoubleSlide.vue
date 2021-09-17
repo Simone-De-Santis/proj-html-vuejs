@@ -1,5 +1,9 @@
 <template>
-  <h1>componente doppia diapositiva</h1>
+  <div class="container">
+    <h2>{{ data.up_title }}</h2>
+    <h1>{{ data.title }}</h1>
+    <p>{{ data.sub_title }}</p>
+  </div>
 </template>
 
 <script>
@@ -9,5 +13,9 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss" scoped>
+div {
+  background-color: red;
+  min-height: 600px;
+}
 </style>
