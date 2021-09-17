@@ -3,10 +3,14 @@
     class="container-fluid"
     :style="{ backgroundImage: 'url(' + SrcImg + ')' }"
   >
-    <div class="mini-container">
-      <p>{{ data.up_title }}</p>
-      <h2>{{ data.title }}</h2>
-      <button type="submit">{{ data.text_button }}</button>
+    <div class="mini-container pd-50-0">
+      <div class="col-5">
+        <p class="up-title">{{ data.up_title }}</p>
+        <h2 class="title color-multi-slide pd-25-0">{{ data.title }}</h2>
+        <button type="submit" class="btn btn-aletrnative">
+          {{ data.text_button }}
+        </button>
+      </div>
     </div>
   </div>
 </template>
@@ -33,5 +37,8 @@ export default {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.title {
+  font-size: 30px;
 }
 </style>
