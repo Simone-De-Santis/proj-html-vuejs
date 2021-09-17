@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container section">
     <div class="row">
       <div class="col-3">
         <img :src="printUrlImg(data.img_one)" alt="" />

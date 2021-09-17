@@ -1,16 +1,16 @@
 <template>
-  <div class="container">
-    <p>{{ data.up_title }}</p>
-    <h2>{{ data.title }}</h2>
-    <div class="d-flex">
-      <div class="col">
-        <Storre :data="data.store_new_york" />
+  <section class="container section">
+    <p class="up-title">{{ data.up_title }}</p>
+    <h2 class="title title-slider">{{ data.title }}</h2>
+    <div class="row margin-t-50">
+      <div class="col-6">
+        <Storre :data="data.store_new_york" :isYork="true" />
       </div>
-      <div class="col">
-        <Storre :data="data.store_london" />
+      <div class="col-6">
+        <Storre :data="data.store_london" :isLondon="true" />
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
@@ -23,10 +23,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.d-flex {
-  display: flex;
-  .col {
-    width: 50%;
-  }
+.container {
+  text-align: center;
 }
 </style>

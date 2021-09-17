@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container section">
     <MiniJumbo :data="data_multi_section.section_one" :isOffset="true" />
     <div class="row">
       <div class="col pd-right-15">
