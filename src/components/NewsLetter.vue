@@ -4,7 +4,7 @@
     <div>
       <input type="text" placeholder="enter email address*" class="input" />
       <button type="submit" class="btn btn-alternative">
-        {{ data.text_button }}
+        <a href="#">{{ data.text_button }} </a>
       </button>
     </div>
   </div>
@@ -28,9 +28,10 @@ export default {
 .input {
   width: 300px;
   height: 40px;
-  font-size: 25px;
+  font-size: 13px;
   border-radius: 10px;
   margin: 10px 10px;
+  padding: 10px;
 }
 .d-flex {
   flex-direction: column;

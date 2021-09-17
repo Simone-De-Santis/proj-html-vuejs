@@ -8,7 +8,7 @@
           <h1 class="title margin-t-b-1">{{ description.title }}</h1>
           <p class="paragraph margin-t-b-1">{{ description.paragraph }}</p>
           <button class="btn" type="submit">
-            {{ description.text_button }}
+            <a href="#"> {{ description.text_button }} </a>
           </button>
         </div>
       </div>

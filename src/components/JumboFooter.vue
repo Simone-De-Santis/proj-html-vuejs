@@ -8,7 +8,7 @@
         <p class="up-title">{{ data.up_title }}</p>
         <h2 class="title color-multi-slide pd-25-0">{{ data.title }}</h2>
         <button type="submit" class="btn btn-aletrnative">
-          {{ data.text_button }}
+          <a href="#">{{ data.text_button }} </a>
         </button>
       </div>
     </div>

@@ -9,7 +9,7 @@
           <p class="up-title">{{ data.up_title }}</p>
           <h2 class="title">{{ data.title }}</h2>
           <button type="submit" class="btn btn-alternative">
-            {{ data.text_button }}
+            <a href="#">{{ data.text_button }} </a>
           </button>
         </div>
       </div>

@@ -102,11 +102,15 @@ body {
   color: $daisy-bush;
   font-weight: 600;
   a {
+    text-decoration: none;
   }
 }
 .btn-alternative {
   background-color: $daisy-bush;
   color: white;
+  a {
+    color: white;
+  }
 }
 .style-number {
   font-weight: 200;

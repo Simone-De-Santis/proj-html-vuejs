@@ -6,12 +6,12 @@
         <h2 class="title title-slider margin-t-b-1">{{ description.title }}</h2>
         <p>{{ description.sub_title }}</p>
         <button type="submit" class="btn btn-alternative margin-t-b-1">
-          {{ description.text_button }}
+          <a href="#"> {{ description.text_button }} </a>
         </button>
       </div>
 
       <div class="col-8">
-        <Slider />
+        <Slider :imgContent="slider_image" />
       </div>
     </div>
   </div>

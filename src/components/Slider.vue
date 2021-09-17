@@ -1,11 +1,8 @@
 <template>
   <div class="row">
-    <div class="col-6">
-      <img src="@/assets/img/blackberry-stuffed-bread-400x510.jpg" alt="" />
-    </div>
-    <div class="col-6">
-      <img src="" alt="" />
-    </div>
+    <div class="col-6"></div>
+    <div class="col-6"></div>
+    <h1></h1>
   </div>
 </template>
 
@@ -13,28 +10,11 @@
 export default {
   name: "Slider",
   data() {
-    return {
-      currentIndex: 0,
-    };
+    return {};
   },
-  methods: {
-    isActive(index) {
-      return this.currentIndex === index ? "active" : "";
-    },
-    increaseIndex() {
-      if (
-        this.currentIndex === this.linkImage.length - 1 ||
-        this.currentIndex > this.linkImage.length - 1
-      ) {
-        this.currentIndex = 0;
-      } else this.currentIndex++;
-    },
-    decreaseIndex() {
-      if (this.currentIndex === 0) {
-        this.currentIndex = this.linkImage.length - 1;
-      } else this.currentIndex--;
-    },
-  },
+  props() {},
+  methods: {},
+  computed: {},
 };
 </script>
 
