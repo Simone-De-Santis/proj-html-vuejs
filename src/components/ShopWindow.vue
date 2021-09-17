@@ -1,14 +1,16 @@
 <template>
   <div class="container section">
     <div class="row">
-      <div class="col-1-3">
-        <p>{{ description.up_title }}</p>
-        <h2>{{ description.title }}</h2>
+      <div class="col-4">
+        <p class="up-title margin-t-b-1">{{ description.up_title }}</p>
+        <h2 class="title title-slider margin-t-b-1">{{ description.title }}</h2>
         <p>{{ description.sub_title }}</p>
-        <button type="submit">{{ description.text_button }}</button>
+        <button type="submit" class="btn btn-alternative margin-t-b-1">
+          {{ description.text_button }}
+        </button>
       </div>
 
-      <div class="col-2-3">
+      <div class="col-8">
         <Slider />
         sezione slider 2/3 colonne Lorem ipsum, dolor sit amet consectetur
         adipisicing elit. Excepturi, dolorum quae sint sunt nisi laboriosam,
@@ -32,13 +34,4 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.row {
-  @include flex("");
-  .col-1-3 {
-    width: calc(100% / 3);
-  }
-  .col-2-3 {
-    width: 100%;
-  }
-}
 </style>

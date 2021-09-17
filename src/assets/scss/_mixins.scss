@@ -32,14 +32,15 @@
     li {
         list-style-type: none;
         a {
-            padding: 10px;
-            color: red;
+            margin: 12px;
+            padding: 3px;
+            color: $daisy-bush;
             text-decoration: none;
             text-transform: uppercase;
             &:hover,
             &.active {
                 @if $type== "selected" {
-                    border-bottom: 1.5px solid red;
+                    border-bottom: 2px solid $daisy-bush;
                 } @else if $type== "none" {
                     border-bottom: none;
                 }

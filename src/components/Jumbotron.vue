@@ -1,12 +1,12 @@
 <template>
   <div class="jumbotron" :style="{ backgroundImage: 'url(' + SrcImg + ')' }">
     <LinkBar :items="link_bar" :logo="logo" />
-    <section class="container">
+    <section class="container margin-t-100">
       <div class="row">
         <div class="col-4">
           <p class="up-title">{{ description.up_title }}</p>
-          <h1 class="title">{{ description.title }}</h1>
-          <p class="paragraph">{{ description.paragraph }}</p>
+          <h1 class="title margin-t-b-1">{{ description.title }}</h1>
+          <p class="paragraph margin-t-b-1">{{ description.paragraph }}</p>
           <button class="btn" type="submit">
             {{ description.text_button }}
           </button>
@@ -35,7 +35,7 @@ export default {
 
 <style lang="scss" scoped>
 .jumbotron {
-  height: 500px;
+  height: 700px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

@@ -34,6 +34,12 @@ export default {
   ul {
     @include center(space);
     @include modlist();
+    li {
+      a {
+        font-size: 12px;
+        font-weight: 600;
+      }
+    }
   }
 }
 </style>

@@ -70,7 +70,7 @@ body {
 }
 #app {
   .section {
-    margin-top: 50px;
+    margin-top: 100px;
   }
 }
 .up-title {
@@ -84,16 +84,30 @@ body {
   color: $daisy-bush;
   font-weight: 800;
 }
+.title-slider {
+  font-size: 1.8rem;
+}
+.color-multi-slide {
+  color: $white;
+}
 .paragraph {
   font-size: 16px;
   color: $manatee;
 }
 .btn {
-  padding: 15px;
-  border-radius: 17px;
+  padding: 12px 20px;
+  border-radius: 10px;
   border: 0;
   background-color: white;
   color: $daisy-bush;
   font-weight: 600;
+}
+.btn-alternative {
+  background-color: $daisy-bush;
+  color: white;
+}
+.style-number {
+  font-weight: 200;
+  font-size: 5rem;
 }
 </style>

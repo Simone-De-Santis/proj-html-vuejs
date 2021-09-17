@@ -88,14 +88,14 @@
                 "number": "01",
                 "up_title": "manual ingredients selection",
                 "title": "tell us what you have in mind",
-                "paragraph": "cras consequat lectus vestibulum tortor pulvinar, quis euismod nisl varius. ut eu laoreet ex. aliquam erat volutpat. Nullam quis sagittis nibh. morbi consectetur ultricies ante ac congue. donec lorem erat, finibus in velit placerat, rutrum angue.",
+                "paragraph": "Cras consequat lectus vestibulum tortor pulvinar, quis euismod nisl varius. ut eu laoreet ex. aliquam erat volutpat. Nullam quis sagittis nibh. morbi consectetur ultricies ante ac congue. donec lorem erat, finibus in velit placerat, rutrum angue.",
                 "img_background": "bakery-process-1.jpg"
             },
             "section_two": {
                 "number": "02",
                 "up_title": "sweet & delicious",
                 "title": "we start baking",
-                "paragraph": "cras consequat lectus vestibulum tortor pilviar,quis euismod nisl varius. ut eu laoreet ex. aliquam erat volutpat. Nullam quis sagittis nibh. morbi consectetur ultricies ante ac congue. donec lorem erat, finibus in velit placerat",
+                "paragraph": "Cras consequat lectus vestibulum tortor pilviar,quis euismod nisl varius. ut eu laoreet ex. aliquam erat volutpat. Nullam quis sagittis nibh. morbi consectetur ultricies ante ac congue. donec lorem erat, finibus in velit placerat",
                 "img_background": "bakery-process-2.jpg",
                 "next_two": {
                     "up_title": "dont just take our word for it",
@@ -105,9 +105,10 @@
             },
             "section_three": {
                 "number": "03",
+                "up_title": "baked to order & gift wrapped",
                 "title": "delivered to your home",
                 "sub_title": "baked to order & gift wrapped",
-                "paragraph": "cras consequat lectus vestibulum tortor pulvinar, quis euismod nisl varius. ut eu laoreet ex. aliquam erat volutpat. Nullam quis sagittis nibh. morbi consectetur ultricies ante ac congue. donec lorem erat, finibus in velit placerat, rutrum angue.",
+                "paragraph": "Cras consequat lectus vestibulum tortor pulvinar, quis euismod nisl varius. ut eu laoreet ex. aliquam erat volutpat. Nullam quis sagittis nibh. morbi consectetur ultricies ante ac congue. donec lorem erat, finibus in velit placerat, rutrum angue.",
                 "img_background": "bakery-process-3.jpg"
             }
         },

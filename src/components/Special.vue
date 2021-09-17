@@ -1,12 +1,12 @@
 <template>
   <div class="container">
-    <p>{{ description.up_title }}</p>
-    <h1>{{ description.title }}</h1>
-    <section class="imageContainer">
-      <div>
+    <p class="up-title margin-t-b-1">{{ description.up_title }}</p>
+    <h2 class="title title-slider margin-t-b-1">{{ description.title }}</h2>
+    <section class="row margin-t-50">
+      <div class="col-6 pd-right-50">
         <img :src="printUrlImg(dataimg.corporate)" alt="" />
       </div>
-      <div>
+      <div class="col-6 pd-left-50">
         <img :src="printUrlImg(dataimg.wedding)" alt="" />
       </div>
     </section>
@@ -32,8 +32,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.imageContainer {
-  @include flex("");
+.container {
+  text-align: center;
 }
 img {
   width: 100%;

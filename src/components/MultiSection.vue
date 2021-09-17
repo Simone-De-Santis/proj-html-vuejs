@@ -1,11 +1,11 @@
 <template>
   <div class="container">
-    <MiniJumbo :data="data_multi_section.section_one" />
+    <MiniJumbo :data="data_multi_section.section_one" :isOffset="true" />
     <div class="row">
-      <div class="col">
-        <MiniJumbo :data="data_multi_section.section_two" />
+      <div class="col pd-right-15">
+        <MiniJumbo :data="data_multi_section.section_two" :isCol_8="true" />
       </div>
-      <div class="col">
+      <div class="col pd-left-15">
         <DoubleSlide :data="data_multi_section.section_two.next_two" />
       </div>
     </div>
