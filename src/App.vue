@@ -101,6 +101,8 @@ body {
   background-color: white;
   color: $daisy-bush;
   font-weight: 600;
+  a {
+  }
 }
 .btn-alternative {
   background-color: $daisy-bush;

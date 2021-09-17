@@ -12,13 +12,6 @@
 
       <div class="col-8">
         <Slider />
-        sezione slider 2/3 colonne Lorem ipsum, dolor sit amet consectetur
-        adipisicing elit. Excepturi, dolorum quae sint sunt nisi laboriosam,
-        assumenda nobis blanditiis deleniti, eveniet dolores labore. Quod et
-        iste doloribus laudantium voluptatem natus Lorem ipsum dolor sit amet
-        consectetur adipisicing elit. Explicabo, odio. Est eveniet quisquam eos
-        aut et, incidunt amet nam sit quia consequuntur tenetur corrupti
-        nostrum? Quo ullam expedita voluptatibus amet.
       </div>
     </div>
   </div>

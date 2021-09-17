@@ -172,6 +172,18 @@
         "corporatewedding_img": {
             "corporate": "corporate-bg.jpg",
             "wedding": "wedding-bg.jpg"
-        }
+        },
+        "slider_image": [
+            "blackberry-stuffed-bread-200x255.jpg",
+            "cherry-cake-400x510.jpg",
+            "choco-chip-cookies-400x510.jpg",
+            "cookies-with-ice-cream-400x510.jpg",
+            "glazed-pancake-with-lemon-400x510.jpg",
+            "home-bread-400x510.jpg",
+            "perfect-macarons-400x510.jpg",
+            "small-cupcake-400x510.jpg",
+            "strawberry-donut-400x510.jpg",
+            "strawberry-jam-cookies-400x510"
+        ]
     }
 }
