@@ -167,23 +167,20 @@
     "img_project": {
         "img_link_bar": "avada-bakery-logo.png",
         "slider_mini": {
-            "img_1": "pollo.png"
+            "img_1": "blackberry-stuffed-bread-200x255.jpg",
+            "img_2": "cherry-cake-400x510.jpg",
+            "img_3": "choco-chip-cookies-400x510.jpg",
+            "img_4": "cookies-with-ice-cream-400x510.jpg",
+            "img_5": "glazed-pancake-with-lemon-400x510.jpg",
+            "img_6": "home-bread-400x510.jpg",
+            "img_7": "perfect-macarons-400x510.jpg",
+            "img_8": "small-cupcake-400x510.jpg",
+            "img_9": "strawberry-donut-400x510.jpg",
+            "img_10": "strawberry-jam-cookies-400x510.jpg"
         },
         "corporatewedding_img": {
             "corporate": "corporate-bg.jpg",
             "wedding": "wedding-bg.jpg"
-        },
-        "slider_image": [
-            "blackberry-stuffed-bread-200x255.jpg",
-            "cherry-cake-400x510.jpg",
-            "choco-chip-cookies-400x510.jpg",
-            "cookies-with-ice-cream-400x510.jpg",
-            "glazed-pancake-with-lemon-400x510.jpg",
-            "home-bread-400x510.jpg",
-            "perfect-macarons-400x510.jpg",
-            "small-cupcake-400x510.jpg",
-            "strawberry-donut-400x510.jpg",
-            "strawberry-jam-cookies-400x510"
-        ]
+        }
     }
 }
