@@ -4,7 +4,7 @@
       <div class="col-6">
         <LinkBar :items="link_bar" :logo="logo" />
       </div>
-      <div class="col-6">
+      <div class="col-6 d-flex letter">
         <NewsLetter :data="newsletter" />
       </div>
     </div>
@@ -12,7 +12,7 @@
       <div class="col-6">
         <p>{{ copyright.info }}</p>
       </div>
-      <div class="col-6">
+      <div class="col-1 col-offset-5">
         <ul>
           <li>
             <a href="#">{{ iconsocials.insta }}</a>
@@ -49,4 +49,22 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.row {
+  @include center();
+}
+
+ul {
+  @include center(space);
+  @include modlist();
+  li {
+    a {
+      font-size: 12px;
+      font-weight: 600;
+    }
+  }
+}
+.letter {
+  justify-content: flex-end;
+  padding: 20px;
+}
 </style>

@@ -1,11 +1,19 @@
 <template>
   <div class="linkBar">
-    <img :src="printUrlImg(logo)" alt="" />
-    <ul>
-      <li v-for="(item, index) in items" :key="index">
-        <a :href="item.src">{{ item.name }}</a>
-      </li>
-    </ul>
+    <div class="row">
+      <div class="col-12">
+        <img :src="printUrlImg(logo)" alt="" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <ul>
+          <li v-for="(item, index) in items" :key="index">
+            <a :href="item.src">{{ item.name }}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
 </template>
 

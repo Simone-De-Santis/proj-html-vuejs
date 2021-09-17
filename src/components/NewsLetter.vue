@@ -1,8 +1,12 @@
 <template>
-  <div>
-    <h2>{{ data.title }}</h2>
-    <input type="text" placeholder="enter email address*" />
-    <button type="submit">{{ data.text_button }}</button>
+  <div class="d-flex">
+    <h2 class="title pd-30-0">{{ data.title }}</h2>
+    <div>
+      <input type="text" placeholder="enter email address*" class="input" />
+      <button type="submit" class="btn btn-alternative">
+        {{ data.text_button }}
+      </button>
+    </div>
   </div>
 </template>
 
@@ -17,5 +21,19 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss" scoped>
+.title {
+  font-size: 25px;
+}
+.input {
+  width: 300px;
+  height: 40px;
+  font-size: 25px;
+  border-radius: 10px;
+  margin: 10px 10px;
+}
+.d-flex {
+  flex-direction: column;
+  align-items: flex-end;
+}
 </style>
