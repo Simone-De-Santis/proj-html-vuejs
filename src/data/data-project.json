@@ -41,11 +41,11 @@
     "dataa_component": {
         "jumbo": {
             "type": "jumbo 1 ",
-            "up_title": "fresh & tasty bakery every day",
+            "up_title": "fresh & tasty bakery every day ",
             "title": "The perfect fresh bread",
             "sub_title": "",
-            "paragraph": "cras consequat lectus vestibulum tortor pulvinar, quis euismod nesl varius. Aliqam erat volutpat. Nullam quis sagittis nibh nulla id orci tempor.",
-            "text_button": "explore our products",
+            "paragraph": "Cras consequat lectus vestibulum tortor pulvinar, quis euismod nesl varius. Aliqam erat volutpat. Nullam quis sagittis nibh nulla id orci tempor.",
+            "text_button": "Explore our products",
             "backgroud_image": "hero-header-bakery.jpg"
         },
         "our_product": {

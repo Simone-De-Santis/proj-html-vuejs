@@ -65,9 +65,35 @@ export default {
 </script>
 
 <style lang="scss">
+body {
+  font-family: "Roboto Slab", serif;
+}
 #app {
   .section {
     margin-top: 50px;
   }
+}
+.up-title {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: $manatee;
+}
+.title {
+  text-transform: capitalize;
+  font-size: 3rem;
+  color: $daisy-bush;
+  font-weight: 800;
+}
+.paragraph {
+  font-size: 16px;
+  color: $manatee;
+}
+.btn {
+  padding: 15px;
+  border-radius: 17px;
+  border: 0;
+  background-color: white;
+  color: $daisy-bush;
+  font-weight: 600;
 }
 </style>
